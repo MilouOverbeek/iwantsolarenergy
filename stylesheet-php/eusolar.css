@@ -105,7 +105,14 @@ body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-#imgflex3 {
+#imgflex31 {
+	width: 200px;
+	height: 175px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#imgflex32 {
 	width: 200px;
 	height: 175px;
 	display: block;
@@ -119,7 +126,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-#copyright2 {
+.copyright2 {
 	text-align: center;
 }
 #aside {
@@ -135,13 +142,13 @@ td {
 	border-collapse: collapse;
 	color: #000000;
 }
-#th0 {
+.th0 {
 	background-color: yellow;
 }
-#td0 {
+.td0 {
 	background-color: #c7fda3;
 }
-#td1 {
+.td1 {
 	background-color: #d5f3ff;
 }
 .copyrighttable {

@@ -123,12 +123,30 @@ input[type="submit"] {
 input[type="submit"]:hover {
 	background-color: #82d14d;
 }
-#imgflex2 {
+
+#imgflex21 {
+	width: 70px;
+	height: 75px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#imgflex22 {
 	width: 100px;
 	height: 75px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+#imgflex23 {
+	width: 100px;
+	height: 75px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.copyright2 {
+	text-align: center;
 }
 .cookie {
 	float: right;

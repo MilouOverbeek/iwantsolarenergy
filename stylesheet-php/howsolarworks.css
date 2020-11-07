@@ -113,12 +113,22 @@ body {
 	margin-right: auto;
 	position: absolute;
 }
-#imgflex5 {
+#imgflex51 {
 	width: 130px;
 	height: 130px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+#imgflex52 {
+	width: 130px;
+	height: 130px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.copyright2 {
+	text-align: center;
 }
 .cookie {
 	float: right;
