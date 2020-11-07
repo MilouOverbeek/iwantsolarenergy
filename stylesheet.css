@@ -1,0 +1,132 @@
+/* INDEX */
+body {
+	width: 800px;
+	margin: 0 auto;
+	background-image: url("afbeeldingen/achtergrond.png");
+	background-color: #cccccc;
+	font-family: verdana;
+	font-size: smaller;
+}
+
+.header {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	background-color: white;
+}
+#logo {
+	background-color: white;
+}
+#imglogo {
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#textcolor {
+	color: rgb(80, 133, 230);
+}
+#nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: rgb(80, 133, 230);
+	padding: 10px 0;
+}
+
+#video {
+	width: 800px;
+}
+
+.flexparent {
+	background-color: rgb(80, 133, 230);
+	width: 800px;
+	float: left;
+	display: flex;
+}
+.flexchild {
+	width: 700px;
+	display: inline-block;
+}
+#imgflex {
+	width: 200px;
+	height: 175px;
+	float: right;
+}
+#pic3 {
+	float: right;
+	width: 100px;
+	height: 175px;
+}
+#copyright {
+	color: white;
+	float: right;
+	margin-top: 160px;
+}
+#article1 {
+	color: white;
+}
+
+#article2,
+#article3 {
+	color: white;
+	display: inline-block;
+}
+
+#aside {
+	float: right;
+	width: 220px;
+	background-color: rgb(255, 243, 131);
+}
+.cookie {
+	float: right;
+	width: 100px;
+	bottom: 0;
+	background-color: #fa0;
+	color: #fff;
+	position: fixed;
+	padding: 10px;
+	opacity: 50%;
+}
+footer {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	color: white;
+	background-color: rgb(31, 98, 223);
+	float: center;
+	bottom: 0;
+}
+
+/* CONTACT */
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+input[type="text"] textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type="submit"] {
+	background-color: #4caf50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}

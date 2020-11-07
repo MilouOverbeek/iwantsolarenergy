@@ -1,10 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Page Title</title>
+		<link rel="stylesheet" href="stylesheet.css" />
+		<title>Home</title>
 	</head>
+	<section class="header">
+		<img id="imglogo" src="afbeeldingen/sunny house.png" />
+		<header>
+			<h1 id="textcolor">SunStore</h1>
+			<h2 id="textcolor">Live greener</h2>
+		</header>
+		<nav id="textcolor">
+			<ul id="nav">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="howsolarworks.html">Solar</a>
+				</li>
+
+				<li>
+					<a href="eusolar.html">EU Solar</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</section>
+
 	<body>
-		<h1>This is a Heading</h1>
-		<p>This is a paragraph.</p>
+		<section>
+			<form action="http:// i-want-solar-energy.com/testform.php">
+				<label for="fname">First and Last Name</label>
+				<input type="text" id="fname" name="name" placeholder="Your name" />
+				<label for="mail">E-Mail</label>
+				<input type="text" id="mail" name="email" placeholder="Your E-Mail" />
+				<label for="message">Message</label>
+				<textarea
+					id="message"
+					name="message"
+					placeholder="Write something"
+				></textarea>
+				<input type="submit" value="Submit"
+			</form>
+		</section>
 	</body>
 </html>
