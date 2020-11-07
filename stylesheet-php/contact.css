@@ -1,0 +1,153 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+	background-image: url("afbeeldingen/achtergrond.png");
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: smaller;
+}
+
+.header {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	background-color: #ffffff;
+}
+#logo {
+	background-color: #ffffff;
+}
+#imglogo {
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.textcolor {
+	color: #5085e6;
+}
+.bar {
+	background-color: #5085e6;
+}
+.nav {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #5085e6;
+}
+
+#nav21 {
+	float: left;
+}
+#nav22 {
+	float: left;
+}
+#nav23 {
+	float: left;
+}
+#nav24 {
+	float: left;
+}
+#navtext1 {
+	display: block;
+	color: #000000;
+	padding: 20px;
+	text-decoration: none;
+	text-align: center;
+}
+#navtext2 {
+	display: block;
+	color: #000000;
+	padding: 20px;
+	text-decoration: none;
+	text-align: center;
+}
+#navtext3 {
+	display: block;
+	color: #000000;
+	padding: 20px;
+	text-decoration: none;
+	text-align: center;
+}
+#navtext4 {
+	display: block;
+	color: #000000;
+	padding: 20px;
+	text-decoration: none;
+	text-align: center;
+}
+#navtext1:hover {
+	background-color: #ff5b4d;
+}
+#navtext2:hover {
+	background-color: #ff5b4d;
+}
+#navtext3:hover {
+	background-color: #ff5b4d;
+}
+#navtext4:hover {
+	background-color: #ff5b4d;
+}
+.container {
+	background-color: #fff383;
+	padding: 20px;
+	display: flex;
+	float: left;
+	line-height: 1.6;
+}
+input[type="text"],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type="submit"] {
+	background-color: #5085e6;
+	color: #ffffff;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	display: flex;
+}
+
+input[type="submit"]:hover {
+	background-color: #82d14d;
+}
+#imgflex2 {
+	width: 100px;
+	height: 75px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cookie {
+	float: right;
+	width: 100px;
+	bottom: 0;
+	background-color: #fa0;
+	color: #fff;
+	position: fixed;
+	padding: 10px;
+	opacity: 50%;
+	z-index: 9999;
+}
+footer {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: right;
+	color: #000000;
+	background-color: #1f62df;
+	bottom: 0;
+	letter-spacing: 2px;
+}

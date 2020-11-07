@@ -2,44 +2,48 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="stylesheet.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="stylesheet-php/main.css" />
 		<title>Home</title>
 	</head>
-	<section class="header">
-		<img id="imglogo" src="afbeeldingen/sunny house.png" />
-		<header>
-			<h1 id="textcolor">SunStore</h1>
-			<h2 id="textcolor">Live greener</h2>
-		</header>
-		<section class="bar">
-			<nav id="textcolor">
-				<ul class="nav">
-					<li id="nav2">
-						<a id="navtext" href="index.html">Home</a>
-					</li>
-					<li id="nav2">
-						<a id="navtext" href="howsolarworks.html">How solar works</a>
-					</li>
-					<li id="nav2">
-						<a id="navtext" href="eusolar.html">EU Solar</a>
-					</li>
-					<li id="nav2">
-						<a id="navtext" href="contact.html">Contact</a>
-					</li>
-				</ul>
-			</nav>
-		</section>
-		<video id="video" autoplay muted loop>
-			<source src="afbeeldingen/solarpanel.mov" type="video/mp4" />
-		</video>
-		<p>
-			Video from
-			<a href="https://www.videvo.net/video/solar-panel-on-roof-/1162/"
-				>www.videvo.net</a
-			>
-		</p>
-	</section>
 	<body>
+		<section class="header">
+			<img id="imglogo" alt="logo" src="afbeeldingen/sunnyhouse.png" />
+			<header>
+				<h1 class="textcolor">SunStore</h1>
+				<h2 class="textcolor">Live greener</h2>
+			</header>
+			<section class="bar">
+				<nav class="textcolor">
+					<ul class="nav">
+						<li id="nav21">
+							<a id="navtext1" href="index.html">Home</a>
+						</li>
+						<li id="nav22">
+							<a id="navtext2" href="howsolarworks.html">How solar works</a>
+						</li>
+						<li id="nav23">
+							<a id="navtext3" href="eusolar.html">EU Solar</a>
+						</li>
+						<li id="nav24">
+							<a id="navtext4" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+			<section>
+				<video id="video" autoplay muted loop>
+					<source src="afbeeldingen/solarpanel.mov" type="video/mp4" />
+				</video>
+				<p>
+					Video from
+					<a href="https://www.videvo.net/video/solar-panel-on-roof-/1162/"
+						>www.videvo.net</a
+					>
+				</p>
+			</section>
+		</section>
+
 		<section class="flexparent">
 			<section class="flexchild">
 				<article id="article1">
@@ -56,16 +60,17 @@
 						system always generates maximum yields.
 					</p>
 					<img
-						id="imgflex"
+						id="imgflex1"
 						src="afbeeldingen/product1.jpg"
 						alt="SMA Sunny Boy"
 					/>
 				</article>
 				<a
+					id="link1"
 					href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/%22SMA+Sunny+Boy+SB3.6%22/"
 					>Shop Link!</a
 				>
-				<p id="copyright">&copy; Copyright ikwilzonneenergie</p>
+				<p id="copyright1">&copy; Copyright ikwilzonneenergie</p>
 				<article id="article2">
 					<h2>SMA The Sunny Tripower</h2>
 					<p>
@@ -80,15 +85,17 @@
 						systems.
 					</p>
 					<img
-						id="imgflex"
+						id="imgflex2"
 						src="afbeeldingen/product2.png"
 						alt=" SMA STP8.0 Solar panels inverter 3-phases"
 					/>
 
-					<a href="https://www.ikwilzonneenergie.nl/SMA-Omvormer-STP-80-3AV-40/"
+					<a
+						id="link2"
+						href="https://www.ikwilzonneenergie.nl/SMA-Omvormer-STP-80-3AV-40/"
 						>Shop Link!</a
 					>
-					<p id="copyright">&copy; Copyright ikwilzonneenergie</p>
+					<p id="copyright2">&copy; Copyright ikwilzonneenergie</p>
 				</article>
 				<article id="article3">
 					<h2>Victron Phoenix Smart Inverter</h2>
@@ -109,10 +116,11 @@
 					/>
 
 					<a
+						id="link3"
 						href="https://www.ikwilzonneenergie.nl/Victron-Energy-omvormer-smart-12V-2000W-230V/"
 						>Shop Link!</a
 					>
-					<p id="copyright">&copy; Copyright ikwilzonneenergie</p>
+					<p id="copyright3">&copy; Copyright ikwilzonneenergie</p>
 				</article>
 			</section>
 			<aside id="aside">
@@ -129,8 +137,6 @@
 		<section class="cookie">
 			<p>Cookie Statement</p>
 		</section>
-	</body>
-	<section>
 		<footer>&copy; 2020 Milou Overbeek | 670117</footer>
-	</section>
+	</body>
 </html>
