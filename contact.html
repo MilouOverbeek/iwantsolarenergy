@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="utf-8" />
 		<link rel="stylesheet" href="stylesheet.css" />
-		<title>Home</title>
+		<title>Contact</title>
 	</head>
 	<section class="header">
 		<img id="imglogo" src="afbeeldingen/sunny house.png" />
@@ -30,20 +31,58 @@
 	</section>
 
 	<body>
-		<section>
-			<form action="http:// i-want-solar-energy.com/testform.php">
-				<label for="fname">First and Last Name</label>
-				<input type="text" id="fname" name="name" placeholder="Your name" />
-				<label for="mail">E-Mail</label>
-				<input type="text" id="mail" name="email" placeholder="Your E-Mail" />
-				<label for="message">Message</label>
-				<textarea
-					id="message"
-					name="message"
-					placeholder="Write something"
-				></textarea>
-				<input type="submit" value="Submit"
+		<section class="container">
+			<form action="http:// i-want-solar-energy.com/testform.php" method="POST">
+				<fieldset>
+					<legend id="copyright2">Contact us!</legend>
+					<label for="fname">First and Last Name</label>
+					<input type="text" name="name" placeholder="Your name" />
+					<label for="mail">E-Mail</label>
+					<input type="text" name="email" placeholder="Your E-Mail" />
+					<label for="message">Message</label>
+					<textarea name="message" placeholder="Write something"></textarea>
+
+					<input type="submit" value="Submit" />
+				</fieldset>
 			</form>
+			<aside id="aside">
+				<a
+					href="http://www.ikwilzonneenergie.nl/Victron-Energy-Multiplus-12V/3000W/120-16"
+				>
+					<img
+						id="imgflex2"
+						src="afbeeldingen/Victron-Energy-MultiPlus.jpg"
+						alt="Victron-Energy-MultiPlus"
+					/>
+				</a>
+				<p id="copyright2">Klik op de afbeelding voor meer informatie!</p>
+				<a
+					href="http://www.ikwilzonneenergie.nl/Victron-SmartSolar-MPPT-100-50-12V-24V"
+				>
+					<img
+						id="imgflex2"
+						src="afbeeldingen/Victron-Energy-SmartSolar.png"
+						alt="Victron-Energy-SmartSolar"
+					/>
+				</a>
+				<p id="copyright2">Klik op de afbeelding voor meer informatie!</p>
+				<a
+					href="http://www.ikwilzonneenergie.nl/Victron-AGM-Super-Cycle-accu-12V-100Ah"
+				>
+					<img
+						id="imgflex2"
+						src="afbeeldingen/Victron_Energy.png"
+						alt="Victron_Energy"
+					/>
+				</a>
+				<p id="copyright2">Klik op de afbeelding voor meer informatie!</p>
+			</aside>
+		</section>
+		<section class="cookie">
+			<p>Cookie Statement</p>
 		</section>
 	</body>
+	<section>
+		<footer>&copy; 2020 Milou Overbeek | 670117</footer>
+	</section>
 </html>
