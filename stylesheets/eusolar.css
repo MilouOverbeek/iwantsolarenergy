@@ -97,9 +97,30 @@ body {
 }
 #aside {
 	float: right;
-	width: auto;
+	width: 100%;
 	background-color: #fff383;
 	word-spacing: 4px;
+}
+.gridaside {
+	display: grid;
+	grid-template-areas:
+		"asideimg1"
+		"asideimg2"
+		"asideimg3";
+	grid-gap: 10px;
+	margin: 10px;
+}
+.asideimg1 {
+	grid-area: asideimg1;
+	background: #fff383;
+}
+.asideimg2 {
+	grid-area: asideimg2;
+	background: #fff383;
+}
+.asideimg3 {
+	grid-area: asideimg3;
+	background: #fff383;
 }
 #table table,
 th,
@@ -122,7 +143,12 @@ td {
 	text-align: left;
 	background-color: #ffffff;
 	letter-spacing: 2px;
+	grid-area: copyrighttable;
 }
+.copyright23 {
+	text-align: left;
+}
+
 .cookie {
 	float: right;
 	width: 100px;
@@ -167,17 +193,11 @@ footer {
 	.nav input:checked + #menu {
 		display: block;
 	}
-	#table,
-	table,
-	tbody,
-	th,
-	td {
-		display: block;
-		width: 100%;
-	}
+
 	.box,
 	#aside {
 		display: inline-block;
+		width: 100%;
 		float: left;
 	}
 	.copyrighttable {
@@ -189,24 +209,46 @@ footer {
 	#imglogo {
 		display: none;
 	}
+	#imgflex31 {
+		display: none;
+	}
+	#table > tbody > tr > :nth-child(8) {
+		display: none;
+	}
+	#table > tbody > tr > :nth-child(9) {
+		display: none;
+	}
 }
 
 /*tablet*/
 @media screen and (min-width: 481px) and (max-width: 1179px) {
-	.box,
-	#aside {
-		display: block;
-		float: left;
+	.box {
+		display: grid;
 		text-align: center;
-		flex-direction: column;
-		width: 100%;
+		width: auto;
 	}
 	#imgflex32 {
 		text-align: left;
 	}
-
-	#imgflex31,
 	.copyright21 {
+		display: none;
+	}
+	#imgflex31 {
+		display: none;
+	}
+	.gridaside {
+		display: grid;
+		grid-template-areas: "asideimg2 asideimg3";
+		grid-gap: 10px;
+		margin: 10px;
+	}
+	#table {
+		width: 75%;
+	}
+	#table > tbody > tr > :nth-child(8) {
+		display: none;
+	}
+	#table > tbody > tr > :nth-child(9) {
 		display: none;
 	}
 }

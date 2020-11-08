@@ -3,7 +3,7 @@ body {
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
-	background-color: #ffffff;
+	background-color: #5085e6;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: smaller;
 }
@@ -67,16 +67,35 @@ body {
 	text-align: center;
 }
 .flexparent {
-	background-color: #5085e6;
-	width: 100%;
-	float: left;
 	display: flex;
+	background-color: #5085e6;
 	text-indent: 10px;
 }
-.flexchild {
-	width: 100%;
-	display: inline-block;
+.flexteen {
+	width: 90%;
+	float: left;
+}
+.flexchild1 {
+	flex-direction: column;
 	line-height: 1.6;
+}
+.flexchild2 {
+	flex-direction: column;
+
+	line-height: 1.6;
+}
+.flexchild3 {
+	flex-direction: column;
+	line-height: 1.6;
+}
+.flexchild4 {
+	line-height: 1.6;
+	float: left;
+	background-color: #fff383;
+	word-spacing: 4px;
+}
+.aside {
+	float: right;
 }
 #imgflex1 {
 	width: 200px;
@@ -84,6 +103,7 @@ body {
 	float: right;
 }
 #imgflex2 {
+	flex-direction: column;
 	width: 200px;
 	height: 175px;
 	float: right;
@@ -139,11 +159,6 @@ body {
 	display: inline-block;
 }
 
-#aside {
-	width: auto;
-	background-color: #fff383;
-	word-spacing: 4px;
-}
 .cookie {
 	float: right;
 	width: 100px;
@@ -165,6 +180,9 @@ footer {
 	background-color: #1f62df;
 	bottom: 0;
 	letter-spacing: 2px;
+	position: fixed;
+	float: left;
+	width: 100%;
 }
 
 /*mobiel*/
@@ -204,10 +222,15 @@ footer {
 		padding-top: 20px;
 		padding-left: 50px;
 	}
-	.flexchild {
-		width: 60%;
+	.flexparent {
+		width: 100%;
+		flex-direction: column-reverse;
+	}
+	.flexchild4 {
+		width: 100%;
 	}
 }
+
 /*tablet*/
 @media screen and (min-width: 481px) and (max-width: 1179px) {
 	#video {
@@ -234,5 +257,12 @@ footer {
 	#link2,
 	#link3 {
 		text-align: right;
+	}
+	.flexparent {
+		width: 100%;
+		flex-direction: column-reverse;
+	}
+	.flexchild4 {
+		width: 100%;
 	}
 }
