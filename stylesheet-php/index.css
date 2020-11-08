@@ -2,8 +2,7 @@
 body {
 	width: 800px;
 	margin: 0 auto;
-	background-image: url("afbeeldingen/achtergrond.png");
-	background-color: #ffffff;
+	background-image: url("solarwebsite/afbeeldingen/achtergrond.jpg");
 	font-family: verdana;
 	font-size: smaller;
 }
