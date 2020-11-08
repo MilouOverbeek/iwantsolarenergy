@@ -3,9 +3,14 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="stylesheet-php/eusolar.css" />
+		<link rel="stylesheet" href="stylesheets/eusolar.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Notable&display=swap"
+		/>
 		<title>EU Solar</title>
 	</head>
+
 	<body>
 		<section class="header">
 			<img id="imglogo" alt="logo" src="afbeeldingen/sunnyhouse.png" />
@@ -13,25 +18,25 @@
 				<h1 class="textcolor">SunStore</h1>
 				<h2 class="textcolor">Live greener</h2>
 			</header>
-			<section class="bar">
-				<nav class="textcolor">
-					<ul class="nav">
-						<li id="nav21">
-							<a id="navtext1" href="index.html">Home</a>
-						</li>
-						<li id="nav22">
-							<a id="navtext2" href="howsolarworks.html">How solar works</a>
-						</li>
-						<li id="nav23">
-							<a id="navtext3" href="eusolar.html">EU Solar</a>
-						</li>
-						<li id="nav24">
-							<a id="navtext4" href="contact.html">Contact</a>
-						</li>
-					</ul>
-				</nav>
-			</section>
 		</section>
+		<section>
+			<nav class="nav">
+				<label id="textcolor1" for="toggle">&#9776;</label>
+				<input type="checkbox" id="toggle" />
+				<ul id="menu">
+					<li>
+						<a href="index.html">Home</a>
+
+						<a href="howsolarworks.html">How solar works</a>
+
+						<a href="eusolar.html">EU Solar</a>
+
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</section>
+
 		<h3 id="headertext">
 			<em
 				>Solar energy is being used everywhere around the word. This table shows
@@ -528,38 +533,52 @@
 			</table>
 
 			<aside id="aside">
-				<a
-					href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/%22SMA+Sunny+Boy+SB3.6%22/"
-				>
-					<img
-						id="imgflex31"
-						src="afbeeldingen/product1.jpg"
-						alt="SMA Sunny Boy"
-					/>
-				</a>
-				<p class="copyright2">Klik op de afbeelding voor meer informatie!</p>
-				<a href="https://www.ikwilzonneenergie.nl/SMA-Omvormer-STP-80-3AV-40/">
-					<img
-						id="imgflex32"
-						src="afbeeldingen/product2.png"
-						alt=" SMA STP8.0 Solar panels inverter 3-phases"
-					/>
-				</a>
-				<p class="copyright2">Klik op de afbeelding voor meer informatie!</p>
-				<a
-					href="https://www.ikwilzonneenergie.nl/Victron-Energy-omvormer-smart-12V-2000W-230V/"
-				>
-					<img
-						id="pic33"
-						src="afbeeldingen/product3.png"
-						alt="Victron Smart inverter 12V 2000W 230V"
-					/>
-				</a>
-				<p class="copyright2">Klik op de afbeelding voor meer informatie!</p>
+				<figure>
+					<a
+						href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/%22SMA+Sunny+Boy+SB3.6%22/"
+					>
+						<img
+							title="SMa Sunny Boy"
+							id="imgflex31"
+							src="afbeeldingen/product1.jpg"
+							alt="SMA Sunny Boy"
+						/>
+					</a>
+					<figcaption class="copyright2">SMA Sunny Boy</figcaption>
+					<p class="copyright21">Klik op de afbeelding voor meer informatie!</p>
+				</figure>
+				<figure>
+					<a
+						href="https://www.ikwilzonneenergie.nl/SMA-Omvormer-STP-80-3AV-40/"
+					>
+						<img
+							title="Solar Panels"
+							id="imgflex32"
+							src="afbeeldingen/product2.png"
+							alt=" SMA STP8.0 Solar panels inverter 3-phases"
+						/>
+					</a>
+					<figcaption class="copyright2">Solar Panel</figcaption>
+					<p class="copyright2">Klik op de afbeelding voor meer informatie!</p>
+				</figure>
+				<figure>
+					<a
+						href="https://www.ikwilzonneenergie.nl/Victron-Energy-omvormer-smart-12V-2000W-230V/"
+					>
+						<img
+							title="Victron Smart"
+							id="imgflex33"
+							src="afbeeldingen/product3.png"
+							alt="Victron Smart inverter 12V 2000W 230V"
+						/>
+					</a>
+					<figcaption class="copyright2">Victron Smart Inverter</figcaption>
+					<p class="copyright2">Klik op de afbeelding voor meer informatie!</p>
+				</figure>
 			</aside>
 		</section>
 		<section class="copyrighttable">
-			<p>Source of data © 2020 Eurostat</p>
+			<strong><p>Source of data © 2020 Eurostat</p></strong>
 		</section>
 		<section class="cookie">
 			<p>Cookie Statement</p>

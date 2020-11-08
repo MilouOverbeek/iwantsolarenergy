@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="stylesheet-php/index.css" />
+		<link rel="stylesheet" href="stylesheets/index.css" />
 		<title>Home</title>
 	</head>
 	<body>
@@ -13,35 +13,34 @@
 				<h1 class="textcolor">SunStore</h1>
 				<h2 class="textcolor">Live greener</h2>
 			</header>
-			<section class="bar">
-				<nav class="textcolor">
-					<ul class="nav">
-						<li id="nav21">
-							<a id="navtext1" href="index.html">Home</a>
-						</li>
-						<li id="nav22">
-							<a id="navtext2" href="howsolarworks.html">How solar works</a>
-						</li>
-						<li id="nav23">
-							<a id="navtext3" href="eusolar.html">EU Solar</a>
-						</li>
-						<li id="nav24">
-							<a id="navtext4" href="contact.html">Contact</a>
-						</li>
-					</ul>
-				</nav>
-			</section>
-			<section>
-				<video id="video" autoplay muted loop>
-					<source src="afbeeldingen/solarpanel.mov" type="video/mp4" />
-				</video>
-				<p>
-					Video from
-					<a href="https://www.videvo.net/video/solar-panel-on-roof-/1162/"
-						>www.videvo.net</a
-					>
-				</p>
-			</section>
+		</section>
+		<section>
+			<nav class="nav">
+				<label id="textcolor1" for="toggle">&#9776;</label>
+				<input type="checkbox" id="toggle" />
+				<ul id="menu">
+					<li>
+						<a href="index.html">Home</a>
+
+						<a href="howsolarworks.html">How solar works</a>
+
+						<a href="eusolar.html">EU Solar</a>
+
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</section>
+		<section>
+			<video id="video" autoplay muted loop>
+				<source src="afbeeldingen/solarpanel.mov" type="video/mp4" />
+			</video>
+			<p id="credits">
+				Video from
+				<a href="https://www.videvo.net/video/solar-panel-on-roof-/1162/"
+					>www.videvo.net</a
+				>
+			</p>
 		</section>
 
 		<section class="flexparent">
@@ -59,11 +58,15 @@
 						intelligent ways. This means that the operators can ensure that the
 						system always generates maximum yields.
 					</p>
-					<img
-						id="imgflex1"
-						src="afbeeldingen/product1.jpg"
-						alt="SMA Sunny Boy"
-					/>
+					<figure>
+						<img
+							title="SMA Sunny Boy"
+							id="imgflex1"
+							src="afbeeldingen/product1.jpg"
+							alt="SMA Sunny Boy"
+						/>
+						<figcaption class="caption1">SMA Sunny Boy</figcaption>
+					</figure>
 				</article>
 				<a
 					id="link1"
@@ -84,12 +87,15 @@
 						power in your home, smart energy management will be added to the
 						systems.
 					</p>
-					<img
-						id="imgflex2"
-						src="afbeeldingen/product2.png"
-						alt=" SMA STP8.0 Solar panels inverter 3-phases"
-					/>
-
+					<figure>
+						<img
+							title="Solar Panels"
+							id="imgflex2"
+							src="afbeeldingen/product2.png"
+							alt=" SMA STP8.0 Solar panels inverter 3-phases"
+						/>
+						<figcaption class="caption1">Solar Panels</figcaption>
+					</figure>
 					<a
 						id="link2"
 						href="https://www.ikwilzonneenergie.nl/SMA-Omvormer-STP-80-3AV-40/"
@@ -109,12 +115,15 @@
 						bluetooth on board. Setting up the Victron Phoenix Inverter Smart
 						has never been easier.
 					</p>
-					<img
-						id="pic3"
-						src="afbeeldingen/product3.png"
-						alt="Victron Smart inverter 12V 2000W 230V"
-					/>
-
+					<figure>
+						<img
+							title="Victron Smart Inverter"
+							id="imgflex3"
+							src="afbeeldingen/product3.png"
+							alt="Victron Smart inverter 12V 2000W 230V"
+						/>
+						<figcaption class="caption1">Victron Smart Inverter</figcaption>
+					</figure>
 					<a
 						id="link3"
 						href="https://www.ikwilzonneenergie.nl/Victron-Energy-omvormer-smart-12V-2000W-230V/"

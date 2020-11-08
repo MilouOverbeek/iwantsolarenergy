@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="stylesheet-php/contact.css" />
+		<link rel="stylesheet" href="stylesheets/contact.css" />
 		<title>Contact</title>
 	</head>
 	<body>
@@ -13,33 +13,28 @@
 				<h1 class="textcolor">SunStore</h1>
 				<h2 class="textcolor">Live greener</h2>
 			</header>
-			<section class="bar">
-				<nav class="textcolor">
-					<ul class="nav">
-						<li id="nav21">
-							<a id="navtext1" href="index.html">Home</a>
-						</li>
-						<li id="nav22">
-							<a id="navtext2" href="howsolarworks.html">How solar works</a>
-						</li>
-						<li id="nav23">
-							<a id="navtext3" href="eusolar.html">EU Solar</a>
-						</li>
-						<li id="nav24">
-							<a id="navtext4" href="contact.html">Contact</a>
-						</li>
-					</ul>
-				</nav>
-			</section>
 		</section>
+		<section>
+			<nav class="nav">
+				<label id="textcolor1" for="toggle">&#9776;</label>
+				<input type="checkbox" id="toggle" />
+				<ul id="menu">
+					<li>
+						<a href="index.html">Home</a>
 
+						<a href="howsolarworks.html">How solar works</a>
+
+						<a href="eusolar.html">EU Solar</a>
+
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</section>
 		<section class="container">
-			<form
-				action="http://i-want-solar-energy.com/670117/testform.php"
-				method="POST"
-			>
+			<form action="http://i-want-solar-energy.com/testform.php" method="POST">
 				<fieldset>
-					<legend id="copyright2">Contact us!</legend>
+					<legend class="copyright2">Contact us!</legend>
 					<label for="fname">First and Last Name</label>
 					<input type="text" id="fname" name="name" placeholder="Your name" />
 					<label for="mail">E-Mail</label>
@@ -55,40 +50,55 @@
 				</fieldset>
 			</form>
 			<aside id="aside">
-				<a
-					href="http://www.ikwilzonneenergie.nl/Victron-Energy-Multiplus-12V/3000W/120-16"
-				>
-					<img
-						id="imgflex21"
-						src="afbeeldingen/Victron-Energy-MultiPlus.jpg"
-						alt="Victron-Energy-MultiPlus"
-					/>
-				</a>
+				<figure>
+					<a
+						href="http://www.ikwilzonneenergie.nl/Victron-Energy-Multiplus-12V/3000W/120-16"
+					>
+						<img
+							title="Victron-Energy-MultiPlus"
+							id="imgflex21"
+							src="afbeeldingen/Victron-Energy-MultiPlus.jpg"
+							alt="Victron-Energy-MultiPlus"
+						/>
+					</a>
+
+					<figcaption class="copyright2">Victron-Energy-MultiPlus</figcaption>
+				</figure>
 				<p class="copyright2">Klik op de afbeelding voor meer informatie!</p>
-				<a
-					href="http://www.ikwilzonneenergie.nl/Victron-SmartSolar-MPPT-100-50-12V-24V"
-				>
-					<img
-						id="imgflex22"
-						src="afbeeldingen/Victron-Energy-SmartSolar.png"
-						alt="Victron-Energy-SmartSolar"
-					/>
-				</a>
+				<figure>
+					<a
+						href="http://www.ikwilzonneenergie.nl/Victron-SmartSolar-MPPT-100-50-12V-24V"
+					>
+						<img
+							title="Victron-Energy-SmartSolar"
+							id="imgflex22"
+							src="afbeeldingen/Victron-Energy-SmartSolar.png"
+							alt="Victron-Energy-SmartSolar"
+						/>
+					</a>
+
+					<figcaption class="copyright2">Victron-Energy-Smartsolar</figcaption>
+				</figure>
 				<p class="copyright2">Klik op de afbeelding voor meer informatie!</p>
-				<a
-					href="http://www.ikwilzonneenergie.nl/Victron-AGM-Super-Cycle-accu-12V-100Ah"
-				>
-					<img
-						id="imgflex23"
-						src="afbeeldingen/Victron_Energy.png"
-						alt="Victron_Energy"
-					/>
-				</a>
+				<figure>
+					<a
+						href="http://www.ikwilzonneenergie.nl/Victron-AGM-Super-Cycle-accu-12V-100Ah"
+					>
+						<img
+							title="Victron_Energy"
+							id="imgflex23"
+							src="afbeeldingen/Victron_Energy.png"
+							alt="Victron_Energy"
+						/>
+					</a>
+
+					<figcaption class="copyright2">Victron-Energy</figcaption>
+				</figure>
 				<p class="copyright2">Klik op de afbeelding voor meer informatie!</p>
 			</aside>
 		</section>
-		<section>
-			<p class="cookie">Cookie Statement</p>
+		<section class="cookie">
+			<p>Cookie Statement</p>
 		</section>
 
 		<footer>&copy; 2020 Milou Overbeek | 670117</footer>
