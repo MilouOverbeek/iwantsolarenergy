@@ -1,4 +1,0 @@
-Student name: Milou Overbeek
-Student number: 670117
-Student class: HAINF1B
-Github url: https://github.com/MilouOverbeek/iwantsolarenergy
